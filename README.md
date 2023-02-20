@@ -5,5 +5,5 @@ This is a solution to the [Results summary component challenge on Frontend Mento
     🚧 🏗️ under construction🏗️ 🚧
 </h2>
 <h2>
-    <img src="./src/images/Page_Under_Construction.jpg">
+    <img src="./src/images/Page_Under_Construction.png">
 </h2>
