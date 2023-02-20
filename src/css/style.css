@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: darkblue;
+}
+
+.container {
+    display: flex;
+    height: 500px;
+}
+
+.container .resultado {
+    text-align: center;
+    background: rgb(46, 43, 233);
+    background: linear-gradient(0deg, rgba(46, 43, 233, 1) 50%, rgba(120, 87, 255, 1) 100%);
+    border-radius: 20px;
+    padding: 30px 40px;
+    width: 300px;
+}
+
+.resultado h1 {
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: hsl(241, 100%, 89%);
+}
+
+.resultado .pontos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(78, 33, 202);
+    background: linear-gradient(0deg, rgba(78, 33, 202, 0) 0%, rgba(36, 33, 202, 1) 100%);
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    color: hsl(241, 100%, 89%);
+}
+.resultado .pontos p:first-child{
+    font-weight: 800;
+    font-size: 80px;
+    color: #fff;
+}
+.resultado .categoria {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.resultado .descricao {
+    font-weight: 500;
+    font-size: 20px;
+    color: hsl(241, 100%, 89%);
+}
