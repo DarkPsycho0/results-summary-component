@@ -23,7 +23,7 @@ main {
     background: linear-gradient(0deg, rgba(46, 43, 233, 1) 50%, rgba(120, 87, 255, 1) 100%);
     border-radius: 20px;
     padding: 30px 40px;
-    width: 300px;
+    width: 250px;
 }
 
 .resultado h1 {
@@ -62,4 +62,14 @@ main {
     font-weight: 500;
     font-size: 20px;
     color: hsl(241, 100%, 89%);
+}
+.resultados {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 20px 40px;
+    width: 300px;
+}
+.resultado h2 {
+    margin-bottom: 20px;
 }
