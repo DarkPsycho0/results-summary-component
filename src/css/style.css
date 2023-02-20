@@ -9,21 +9,25 @@ main {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: darkblue;
+    
 }
 
 .container {
     display: flex;
     height: 500px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 5px 5px 20px #bfbfbf;
 }
 
 .container .resultado {
+    z-index: 1;
     text-align: center;
     background: rgb(46, 43, 233);
     background: linear-gradient(0deg, rgba(46, 43, 233, 1) 50%, rgba(120, 87, 255, 1) 100%);
-    border-radius: 20px;
+    border-radius: 30px;
     padding: 30px 40px;
-    width: 250px;
+    width: 300px;
 }
 
 .resultado h1 {
@@ -67,9 +71,56 @@ main {
     display: flex;
     flex-direction: column;
     background-color: #fff;
-    padding: 20px 40px;
-    width: 300px;
+    padding: 40px 40px;
+    width: 350px;
+    border-radius: 30px;
 }
-.resultado h2 {
-    margin-bottom: 20px;
+.resultados h2 {
+    color: hsl(224, 30%, 27%);
+    margin-bottom: 30px;
+}
+.resultados div ul {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.resultados div ul li {
+    display: flex;
+}
+.resultados .reaction {
+    background-color: hsla(0, 100%, 67%, 10%);
+    color: hsl(0, 100%, 67%);
+}
+.resultados .memory {
+    background-color: hsla(39, 100%, 56%, 10%);
+    color: hsl(39, 100%, 56%);
+}
+.resultados .verbal {
+    background-color: hsla(166, 100%, 37%, 10%);
+    color: hsl(166, 100%, 37%);
+}
+.resultados .visual {
+    background-color: hsla(234, 85%, 45%, 10%);
+    color: hsl(234, 85%, 45%);
+}
+.resultados .number {
+    color: hsl(241, 100%, 89%);
+}
+.resultados .number span {
+    color: hsl(224, 30%, 27%);
+    font-weight: 700;
+}
+.resultados .btn {
+    background-color: hsl(224, 30%, 27%);
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 40px;
+    transition: 0.3s;
+}
+.resultados .btn:hover {
+    background: rgb(46, 43, 233);
 }
