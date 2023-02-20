@@ -14,20 +14,18 @@ main {
 
 .container {
     display: flex;
-    height: 500px;
     background-color: #fff;
     border-radius: 30px;
     box-shadow: 5px 5px 20px #bfbfbf;
 }
 
 .container .resultado {
-    z-index: 1;
     text-align: center;
     background: rgb(46, 43, 233);
     background: linear-gradient(0deg, rgba(46, 43, 233, 1) 50%, rgba(120, 87, 255, 1) 100%);
     border-radius: 30px;
     padding: 30px 40px;
-    width: 300px;
+    width: 350px;
 }
 
 .resultado h1 {
@@ -71,7 +69,7 @@ main {
     display: flex;
     flex-direction: column;
     background-color: #fff;
-    padding: 40px 40px;
+    padding: 20px;
     width: 350px;
     border-radius: 30px;
 }
