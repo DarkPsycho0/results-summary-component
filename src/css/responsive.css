@@ -24,14 +24,14 @@
     .resultado .descricao {
         font-size: 18px;
     }
-    .resultados {
+    .habilidades {
         padding: 10px;
         width: 375px;
     }
-    .resultados h2 {
+    .habilidades h2 {
         margin-bottom: 15px;
     }
-    .resultados .btn {
+    .habilidades .btn {
         margin-top: 20px;
     }
 }
@@ -39,10 +39,10 @@
     .container .resultado {
         width: 320px;
     }
-    .resultados {
+    .habilidades {
         width: 320px;
     }
-    .resultados .btn {
+    .habilidades .btn {
         margin-top: 5px;
     }
 }
